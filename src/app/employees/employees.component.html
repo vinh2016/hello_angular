@@ -1,0 +1,5 @@
+<h3>Employees:</h3>
+<li *ngFor="let employee of arrEmployees">
+    <a routerLink="/employees/detail/{{ employee.employeeCode }}/{{ employee.name }}/{{ employee.phoneNumber }}/{{ employee.address }}">{{ employee.name
+        }}</a>
+</li>
